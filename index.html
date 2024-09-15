@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Shopping Cart</h1>
+      <div class="item1">
+        <label for="item-name">Input Item:</label>
+        <input
+          type="text"
+          class="item-name"
+          placeholder="Enter your item"
+          id="itemname"
+        />
+      </div>
+
+      <div class="item2">
+        <label for="item-price">Item Price:</label>
+        <input
+          type="text"
+          class="item-price"
+          placeholder="Enter item price"
+          id="item-price"
+        />
+      </div>
+
+      <div class="item3">
+        <button class="add" id="add-btn">Add to Cart</button>
+        <button class="remove" id="remove-btn">Remove Last Item</button>
+      </div>
+
+      <div class="outputs">
+        <p id="total-items" class="total-items">Total Items: 0</p>
+        <p id="total-price" class="total-price">Total Price: $0.00</p>
+        <p id="free-shipping" class="free-shipping">
+          Free Shipping: Not Eligible
+        </p>
+        <p id="message" class="message"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

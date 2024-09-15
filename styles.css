@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url(Asset.jpeg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 68%;
+  margin: 10% auto;
+  padding: 1.8rem 0;
+  background-color: #818181;
+  border-radius: 5px;
+}
+
+.heading {
+  text-align: center;
+  background-color: rgb(14, 99, 99);
+  color: white;
+  width: 40%;
+  padding: 1rem;
+  margin: 1.6rem 0 1rem;
+  border-radius: 6px;
+}
+
+.item1 input[type="text"],
+.item2 input[type="text"] {
+  padding: 0.7rem;
+  width: 65%;
+  border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+}
+label {
+  font-size: 1.4rem;
+}
+.outputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add {
+  padding: 0.5rem 1rem;
+  background-color: rgb(19, 141, 141);
+  color: #fff;
+  border: none;
+  font-size: 1.6rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.remove {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: rgb(19, 141, 141);
+  border: 1px solid rgb(19, 141, 141);
+  border-radius: 4px;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.total-items,
+.total-price,
+.free-shipping,
+.message {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
